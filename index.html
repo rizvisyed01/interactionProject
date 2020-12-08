@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css' rel='stylesheet'/>
+
+
+    <script defer src="script/key.js"></script>
+    <script defer src="script/script.js"></script>
+
+
+    <title>Car ditch assist</title>
+
+</head>
+<body>
+
+<section class="o-row o-row-finder">
+    <div class="o-container u-max-width">
+        <div class="c-title">
+            <img class="c-title-logo" src="logo/ParkingLogo.png">
+            <h1>
+                ark that Big Beautiful Car
+                <!-- <span class="c-title-location js-location">Kortrijk</span>-->
+            </h1>
+        </div>
+        <div class="c-card ">
+            <form class="c-change-location">
+                <label for="location">Zoek een parkeerplaats in: </label>
+                <input type="text" name="location" id="location"
+                       class="c-change-location--input js-other-location"
+                       placeholder="Kortrijk">
+                <button type="submit" class="js-change-loc hidden u-hidden">Change location</button>
+            </form>
+
+            <div class="c-map-holder">
+                <div id="map" class="c-map"></div>
+            </div>
+
+            <!--https://codepen.io/chrisgannon/pen/423de2ee86505e3f4956b19fd79664ba-->
+            <div class="c-info-bull">
+                <h2>All spaces</h2>
+            </div>
+            <div class="c-parking-holder">
+
+                <div class="c-info-control__select">
+                    <label for="order"></label>
+                    <select name="order" id="order" class="js-order-button">
+                        <option value="distance" selected="selected">Afstand</option>
+                        <option value="name">Op naam</option>
+                        <option value="tijd">Op tijd</option>
+                    </select>
+                </div>
+
+                <div class="c-info-control__free-only">
+                    <label class="c-label c-label-check" for="showFree">Toon enkel gratis</label>
+                    <input type="checkbox" name="showFree" id="showFree" class="js-hide-not-free">
+                </div>
+
+
+                <div class="c-info-list js-park-list">
+
+                </div>
+            </div>
+
+            <div class="o-footer">
+                <div class="c-footer-content">
+                    <p>Shan Rizvi | more info <a href="" class="c-link">klik hier</a> </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+</body>
+</html>

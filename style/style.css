@@ -1,0 +1,399 @@
+/*Variables*/
+/*todo rename*/
+
+:root {
+
+    /*All colors*/
+    --global-color-blue-light:#84CEEBff;
+    --global-color-blue: #86A2E0ff;
+    --global-color-blue-dark:#8697DEff;
+    --global-color-purple-light: #8781D8ff;
+    --global-color-purple:#8776D5ff;
+    --global-color-purple-dark:#886BD3ff;
+    --global-color-purple-dark-x:#8860D0ff;
+    --global-color-white: white;
+
+    --global-gradient-purlpe-blue:hsla(197, 72%, 72%, 1);
+    
+
+    /*Assigning different colors to different parts */
+    --global-background-color: hsla(197, 72%, 72%, 1);
+    --global-card-color: var(--global-color-blue-dark);
+    --global-card-border-color: var(--global-color-blue);
+
+    --global-info-evenEntry-color: var(--global-color-purple-light);
+    --global-info-oddEntry-color: var(--global-color-purple-dark);
+    --global-info-border-color: var(--global-color-purple);
+
+    --global-input-background-color: var(--global-color-purple);
+    --global-input-border-color: var(--global-input-background-color);
+    --global-input-border-hover-color: var(--global-color-purple-dark-x);
+    --global-input-text-color: white;
+
+    --global-link-color: var(--sky-blue);
+    --global-map-border-color: var(--global-color-purple);
+    --global-text-color: white;
+    --global-text-highlighted-color: #5DC5C61;
+
+
+
+    /*Assigning measurements of margin*/
+    --global-baseline: 16px;
+
+
+
+
+    /*Assigning measurements of padding*/
+
+}
+
+/*Generics*/
+html {
+    font-size: var(--global-baseline);
+    line-height: 1.5;
+    /*todo check font*/
+    font-family: "Inter Web", Helvetica, arial, sans-serif;
+    background: hsla(197, 72%, 72%, 1);
+
+    background: linear-gradient(90deg, hsla(197, 72%, 72%, 1) 0%, hsla(261, 54%, 60%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(197, 72%, 72%, 1) 0%, hsla(261, 54%, 60%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(197, 72%, 72%, 1) 0%, hsla(261, 54%, 60%, 1) 100%);
+
+    color: var(--global-text-color);
+    font-feature-settings: 'zero' 1;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*
+    elements
+    ------------------
+    Standard HTML elements eg: title
+*/
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1rem;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*objects*/
+/*todo remove if not used */
+.o-row {
+
+}
+
+.o-row-finder {
+    padding-top: 2rem;
+}
+
+.o-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.o-footer {
+    margin-top: 1.5em;
+    border-top: 0.1rem var(--global-card-border-color) solid;
+}
+
+
+.c-footer-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+/*components*/
+
+.c-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.c-title-location {
+    position: relative;
+    font-weight: bold;
+    color: var(--global-text-highlighted-color);
+}
+
+.c-title-logo {
+    max-width: 8.5rem;
+}
+
+.c-card {
+    background: var(--global-card-color);
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    padding-top: 3rem;
+}
+
+.c-change-location {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-change-location--input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    font-family: inherit;
+    color: var(--global-input-text-color);
+    background: var(--global-input-background-color);
+
+    /*todo font size en line height*/
+    width: 100%;
+    border: 1px solid var(--global-input-border-color);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.c-change-location--input:active,
+.c-change-location--input:focus,
+.c-change-location--input:hover {
+    border-color: var(--global-input-border-hover-color);
+    box-shadow: 0 0 0 1px var(--global-color-purple-dark-x);
+}
+
+.c-map-holder {
+    width: 97%;
+    /*max-width: 35rem;*/
+    height: 20rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-map {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    max-width: 100%;
+
+    /*todo this doesnt know*/
+    border-color: 1px solid var(--global-map-border-color);
+}
+
+
+.c-info-bull{
+    margin-left: 0.5rem;
+}
+
+.c-parking-holder {
+    display: grid;
+    grid-template-columns: 61% 39%;
+    width: 95%;
+    grid-row-gap: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.c-parking-info {
+    display: block;
+    position: relative;
+    background-color: var(--global-info-evenEntry-color);
+    border: 0.1rem black solid;
+    border-bottom: none;
+}
+
+
+.c-parking-info:nth-child(even) {
+    background-color: var(--global-info-oddEntry-color);
+}
+
+.c-parking-info:last-child {
+    border-bottom: 0.1rem black solid;
+}
+
+.c-parking-info-extra {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--global-info-oddEntry-color);
+    border-top: 0.1rem var(--global-info-border-color) solid;
+    border-bottom: 0.1rem black solid;
+}
+
+
+.c-parking-info:nth-child(even) .c-parking-info-extra {
+    background-color: var(--global-info-evenEntry-color);
+}
+
+
+.c-parking-info-extra h4,
+.c-parking-info-extra p {
+    margin-left: 1rem;
+}
+
+.c-parking-info-title-con {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.c-info-title {
+    display: grid;
+    grid-template-columns: 60%  25%;
+    grid-column-gap: 15%;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+
+}
+
+.c-parking-info-extra-icon {
+    justify-self: center;
+    cursor: pointer;
+}
+
+.c-parking-info-extra-icon__arrow {
+    width: 3rem;
+    margin-top: 0.2rem;
+
+}
+
+.c-parking-info-extra-icon__minus {
+    width: 20px;
+    margin-top: 17px;
+    margin-right: 3px;
+}
+
+
+.c-label {
+
+}
+
+.c-label-check {
+
+}
+
+
+.c-info-control__free-only {
+    align-self: end;
+}
+
+.c-info-list {
+    grid-column-start: 1;
+    grid-column-end: five;
+}
+
+
+.c-link {
+    margin-top: 16px;
+    margin-left: 3px;
+    color: var(--global-link-color);
+
+}
+
+/*utilities*/
+.u-fade-in {
+    transition: opacity 0.25s linear;
+    will-change: opacity;
+}
+
+.u-faded-out {
+    opacity: 0;
+}
+
+
+.u-hidden {
+    display: none;
+}
+
+.u-max-width {
+    max-width: 40rem !important;
+}
+
+.u-info {
+    color: black;
+}
+
+
+/*media*/
+
+@media (min-width: 413px) {
+    .c-parking-holder{
+        grid-template-columns: 64% 36% !important;
+    }
+
+    .c-info-title{
+        grid-template-columns: 40%  25%; !important;
+        grid-column-gap: 35%; !important;
+    }
+
+    .c-footer-content{
+        width: 55%; !important;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .c-change-location{
+        width: 80%;!important;
+    }
+
+    .c-parking-holder{
+        grid-template-columns: 74% 26% !important;
+    }
+
+    .c-info-title{
+        grid-template-columns: 50%  25%; !important;
+        grid-column-gap: 25%; !important;
+    }
+
+    .c-footer-content{
+        width: 40%; !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .c-change-location{
+        width: 70%;!important;
+    }
+
+    .c-parking-holder{
+        grid-template-columns: 77% 23% !important;
+    }
+
+    .c-info-title{
+        grid-template-columns: 70% 20% !important;
+        grid-column-gap: 10%; !important;
+    }
+
+    .c-footer-content{
+        width: 35%; !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

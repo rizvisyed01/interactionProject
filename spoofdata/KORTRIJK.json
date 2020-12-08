@@ -1,0 +1,304 @@
+{
+  "id": "city_22646",
+  "name": "Kortrijk",
+  "bbox": {
+    "s": "50.778157",
+    "w": "3.198275",
+    "n": "50.860142",
+    "e": "3.397333"
+  },
+  "min_rate": "150",
+  "max_rate": "200",
+  "poi_list": [
+    {
+      "type": "parking_pr",
+      "id": "parking_35325",
+      "name": "P+B Wembley",
+      "location": {
+        "lat": "50.83202164270707",
+        "lng": "3.2477305503387015"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk"
+    },
+    {
+      "type": "parking_unknown",
+      "id": "parking_35326",
+      "name": "Parking Haven",
+      "location": {
+        "lat": "50.82782271661035",
+        "lng": "3.254231778047938"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket, tweede uur \u20ac 1,50.\nOverdag maximaal \u20ac 2,50.\n's Nachts maximaal \u20ac 1,50."
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35327",
+      "name": "Parking Kortrijk Weide",
+      "location": {
+        "lat": "50.82583902012512",
+        "lng": "3.2547068153335204"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1."
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35328",
+      "name": "Parking Station",
+      "location": {
+        "lat": "50.82478186517346",
+        "lng": "3.2601976498623344"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nTwee uur \u20ac 1,50, max 9 uur \u20ac 2,50.",
+      "rate_day": "250"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35330",
+      "name": "Parking Schouwburg",
+      "location": {
+        "lat": "50.8257381400266",
+        "lng": "3.265588034185953"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1."
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35331",
+      "name": "P K in Kortrijk",
+      "location": {
+        "lat": "50.82629197028608",
+        "lng": "3.271898741762925"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1."
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35332",
+      "name": "Parking Veemarkt",
+      "location": {
+        "lat": "50.82657441019518",
+        "lng": "3.2754217309596925"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1."
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35333",
+      "name": "Parking Houtmarkt",
+      "location": {
+        "lat": "50.82921750407487",
+        "lng": "3.2710313901104655"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1."
+    },
+    {
+      "type": "parking_pr",
+      "id": "parking_35334",
+      "name": "P+R Expo",
+      "location": {
+        "lat": "50.80501498314648",
+        "lng": "3.277343220795501"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "rate_day": "150"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_35335",
+      "name": "Parking Broeltorens",
+      "location": {
+        "lat": "50.83200330014337",
+        "lng": "3.2677479189530914"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1.\nNachttarief max. \u20ac 1,50.",
+      "rate_day": "900"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_35336",
+      "name": "Parking Budabrug",
+      "location": {
+        "lat": "50.83163150532282",
+        "lng": "3.2628211541292558"
+      },
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket.\nDaarna eerste uur \u20ac 2 overdag, 's nachts \u20ac 1.\nNachttarief max. \u20ac 2,50.",
+      "rate_day": "700"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19388",
+      "name": "Dagparkeren Centrum",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Max. 1u (mits ticket )  :  gratis\nMax. 2u                       :  \u20ac 2,00\nMax. 3u                       :  \u20ac 3,00\nMax  9u                       :  \u20ac 4,00",
+      "rate_day": "250"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19389",
+      "name": "KOR2 Dagparkeren Centrum",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Max. 1u (mits ticket )  :  gratis\nMax. 2u                       :  \u20ac 2,00\nMax. 3u                       :  \u20ac 3,00\nMax  9u                       :  \u20ac 4,00",
+      "rate_day": "400"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19390",
+      "name": "KOR2 Dagparkeren Centrum",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Max. 1u (mits ticket )  :  gratis\nMax. 2u                       :  \u20ac 2,00\nMax. 3u                       :  \u20ac 3,00\nMax  9u                       :  \u20ac 4,00",
+      "rate_day": "400"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19391",
+      "name": "Dagparking Centrum",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Max. 1u (mits ticket )  :  gratis\nMax. 2u                       :  \u20ac 2,00\nMax. 3u                       :  \u20ac 3,00\nMax  9u                       :  \u20ac 4,00",
+      "rate_day": "400"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19392",
+      "name": "KOR 1 Kortparkeren",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "1 uur: 2 euro\n1 uur 20 min : 3 euro\n1 uur 40 min:  4,20 euro\n2 uur:           :  5,50 euro",
+      "rate_day": "550"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19393",
+      "name": "KOR1 Kortparkeren",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "1 uur: 2 euro\n1 uur 20 min : 3 euro\n1 uur 40 min:  4,20 euro\n2 uur:           :  5,50 euro",
+      "rate_day": "550"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19394",
+      "name": "KOR1 Kortparkeren",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "1 uur: 2 euro\n1 uur 20 min : 3 euro\n1 uur 40 min:  4,20 euro\n2 uur:           :  5,50 euro",
+      "rate_day": "550"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19395",
+      "name": "KOR1 Kortparkeren",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "1 uur: 2 euro\n1 uur 20 min : 3 euro\n1 uur 40 min:  4,20 euro\n2 uur:           :  5,50 euro",
+      "rate_day": "550"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19396",
+      "name": "KOR1 Kortparkeren",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "1 uur: 2 euro\n1 uur 20 min : 3 euro\n1 uur 40 min:  4,20 euro\n2 uur:           :  5,50 euro",
+      "rate_day": "550"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19397",
+      "name": "Blauwe zone",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19398",
+      "name": "Blauwe zone",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19399",
+      "name": "Blauwe zone",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19400",
+      "name": "Beekstraat",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Max. 1u (mits ticket )  :  gratis\nMax. 2u                       :  \u20ac 2,00\nMax. 3u                       :  \u20ac 3,00\nMax  10u                     :  \u20ac 4,00",
+      "rate_day": "400"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19401",
+      "name": "Blauwe zone",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19402",
+      "name": "Blauwe zone",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19403",
+      "name": "Blauwe zone",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19404",
+      "name": "KOR3 Kortparkeren Expo",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "1 uur: 2 euro\n1 uur 20 min : 3 euro\n1 uur 40 min:  4,20 euro\n2 uur:           :  5,50 euro",
+      "rate_day": "550"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19405",
+      "name": "KOR4 Dagparkeren Expo",
+      "city_id": "city_22646",
+      "overview_city": "Kortrijk",
+      "remark": "Eerste uur gratis ticket. \nMax. 2 uur \u20ac  4,00\nMax. 3 uur \u20ac  6,00\nMax. 9 uur \u20ac 10,00",
+      "rate_day": "1000"
+    }
+  ]
+}
