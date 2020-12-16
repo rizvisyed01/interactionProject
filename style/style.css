@@ -740,7 +740,7 @@ input:hover {
 
 /**Info + feature list**/
 .c-features {
-    max-width: 15rem ;
+    max-width: 15rem;
     margin-right: auto;
     margin-left: auto;
     margin-top: 2rem;
@@ -934,6 +934,11 @@ input:hover {
     display: block;
 }
 
+.u-max-width-55 {
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .u-max-width-90 {
     width: 90%;
@@ -966,11 +971,11 @@ input:hover {
     }
 
 
-    .c-mockup{
+    .c-mockup {
         width: 65% !important;
     }
 
-    .c-modal-content{
+    .c-modal-content {
         width: 30rem;
     }
 }
@@ -995,7 +1000,7 @@ input:hover {
         grid-row-gap: var(--global-whitespace-xlg);
     }
 
-    .c-features{
+    .c-features {
         margin-top: 0;
     }
 
@@ -1004,7 +1009,7 @@ input:hover {
         grid-column-end: 4;
     }
 
-    .c-modal-content{
+    .c-modal-content {
         width: 40rem;
     }
 }

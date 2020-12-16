@@ -25,6 +25,7 @@ const parking = (() => {
         parking.forEach(addToList(listName))
     }
     return {
+        clear: () => clearList(listName),
         getParking: () => parking,
         setParking: (list) => {
             parking = list;
@@ -44,7 +45,7 @@ const doFetchRequest = async (url, headers, success, error) => await fetch(url, 
 const resToJson = (res) => res.json();
 
 const createHeaders = () => {
-    return new Headers([['Accept', 'application/Data']]);
+    return new Headers([['Accept', 'application/json']]);
 }
 
 const error = err => $(".js_error").classList.remove("u-hidden");
@@ -92,6 +93,7 @@ const isInputValid = () => {
 const hideAllErrors = () => {
     $(".js_error_input").classList.add("u-hidden");
     $(".js_error").classList.add("u-hidden");
+    $(".js_error_support").classList.add("u-hidden");
 }
 
 
@@ -316,19 +318,24 @@ const addOwnLocation = pos => {
 
 /*Load all parking data, calc the individual distances and add them to the map*/
 const loadAndShowParking = async (loc) => {
-    const parkingSpaces = (getParkingByLoc(loc.name)).poi_list.filter(hasLocation);
-    const distances = await getDistances(generateDistanceUrl(loc), parkingSpaces);
-    addParkingToMapAndList(addDistanceToLocation(parkingSpaces, distances));
+    const data = (getParkingByLoc(loc.name))
+    if (data != undefined) {
+        const parkingSpaces = data.poi_list.filter(hasLocation);
+        const distances = await getDistances(generateDistanceUrl(loc), parkingSpaces);
+        addParkingToMapAndList(addDistanceToLocation(parkingSpaces, distances));
+    } else {
+        $(".js_error_support").classList.remove("u-hidden");
+        parking.clear();
+    }
+
 }
 
 
 const hasLocation = el => el.location;
 
 
-const getParkingByLoc =  (loc) => {
-    console.log(loc)
+const getParkingByLoc = (loc) => {
     let res = SPOOFDATA[`${capitalize(loc)}`];
-    console.log("Test: ", res);
     return res;
 }
 
@@ -396,7 +403,7 @@ const readAndChangLoc = async (e) => {
     hideAllErrors();
     if (isInputValid()) {
         e.preventDefault()
-        let url = "https://eu1.locationiq.com/v1/search.php?key=" + LOCATION_KEY + "&q=" + $(".js-other-location").value + "&format=Data";
+        let url = "https://eu1.locationiq.com/v1/search.php?key=" + LOCATION_KEY + "&q=" + $(".js-other-location").value + "&format=JSON";
         const newLocationCoords = await doFetchRequest(url, createHeaders(), resToJson, error);
         if (newLocationCoords[0]) {
             await wait(500);
