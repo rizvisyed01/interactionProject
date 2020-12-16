@@ -390,10 +390,6 @@ input:hover {
     margin-top: var(--global-whitespace-xxs);
 }
 
-.u-padding-top-large {
-    padding-top: var(--global-whitespace-xlg);
-}
-
 .c-label {
     margin-bottom: 0.5rem;
 
@@ -686,9 +682,7 @@ input:hover {
     font-weight: 400;
 }
 
-.u-info-tag {
-    color: var(--global-color-white);
-}
+
 
 .c-info-title {
     display: grid;
@@ -807,10 +801,6 @@ input:hover {
     cursor: pointer;
 }
 
-.u-grid-align-right {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
 .c-subscribe {
     margin-top: var(--global-whitespace-sm);
@@ -856,6 +846,19 @@ input:hover {
 #UTILITIES
 \*------------------------------------*/
 
+.u-padding-top-large {
+    padding-top: var(--global-whitespace-xlg);
+}
+
+
+.u-info-tag {
+    color: var(--global-color-white);
+}
+
+.u-grid-align-right {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 .u-text-info-size {
     font-size: calc(var(--global-hx-font-size) * 2);
