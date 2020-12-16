@@ -1,3 +1,0 @@
-/*
-https://api.monotch.com/PrettigParkeren/v6/city?api_key=5wxbzawwbhj77fqjtcjz2a5g&id=city_22654&types=sector%3Bparking_unknown%3Bparking_garage%3Bparking_area%3Bparking_carpool%3Bparking_transfer%3Bparking_pr%3Bparking_valet%3Bparking_book
-*/

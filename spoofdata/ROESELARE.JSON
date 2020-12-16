@@ -1,0 +1,130 @@
+{
+  "id": "city_22514",
+  "name": "Roeselare",
+  "bbox": {
+    "s": "50.93205",
+    "w": "3.092308",
+    "n": "50.960045",
+    "e": "3.162719"
+  },
+  "min_rate": "130",
+  "max_rate": "130",
+  "poi_list": [
+    {
+      "type": "parking_garage",
+      "id": "parking_21363",
+      "name": "Wallenparking",
+      "location": {
+        "lat": "50.944723826826525",
+        "lng": "3.1201733200110766"
+      },
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Eerste uur gratis.\nNachttarief (19u - 7u): Max € 4.",
+      "rate_day": "1380"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21364",
+      "name": "Parking De Munt",
+      "location": {
+        "lat": "50.94736689251589",
+        "lng": "3.1246552210951677"
+      },
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Eerste uur gratis.\nNachttarief (19u - 7u): Max € 4.",
+      "rate_day": "1380"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21365",
+      "name": "Moermanparking",
+      "location": {
+        "lat": "50.949867127980426",
+        "lng": "3.1266491933771476"
+      },
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Eerste uur € 1, daarna € 1,25",
+      "rate_day": "600"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21366",
+      "name": "Parking Station",
+      "location": {
+        "lat": "50.94950691333919",
+        "lng": "3.1305753939418537"
+      },
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Nachttarief (19u - 7u): Max € 3,12\nVoor treinreizigers gereduceerd tarrief",
+      "rate_day": "949"
+    },
+    {
+      "type": "sector",
+      "id": "sector_18733",
+      "name": "Gele zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Eerste kwartier gratis ticket.\nEerste uur € 1,30.\nTweede uur € 1,70."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18734",
+      "name": "Gele zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Eerste kwartier gratis ticket.\nEerste uur € 1,30.\nTweede uur € 1,70."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18735",
+      "name": "Rode zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Eerste kwartier gratis ticket."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18736",
+      "name": "Blauwe zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18737",
+      "name": "Blauwe zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18738",
+      "name": "Blauwe zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18739",
+      "name": "Blauwe zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Parkeerschijf verplicht."
+    },
+    {
+      "type": "sector",
+      "id": "sector_18740",
+      "name": "Blauwe zone",
+      "city_id": "city_22514",
+      "overview_city": "Roeselare",
+      "remark": "Parkeerschijf verplicht."
+    }
+  ]
+}

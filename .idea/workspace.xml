@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0ed491-cd46-4381-a3f3-f24017290864" name="Default Changelist" comment="" />
+    <list default="true" id="ab0ed491-cd46-4381-a3f3-f24017290864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/script/index/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/delMe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/large-blue-cutout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/marker50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo/ParkingLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo/ParkingLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoofdata/KORTRIJK.json" beforeDir="false" afterPath="$PROJECT_DIR$/spoofdata/KORTRIJK.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoofdata/MENEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/spoofdata/MENEN.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoofdata/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/styleLand.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleLand.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +44,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kgLmWKuc7PgozXpnFR3fi6GJ1V" />
   <component name="ProjectViewState">
@@ -25,19 +62,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../herhaling/create3-labo1-startfiles" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spoofdata" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\images" />
-      <recent name="D:\school\semester 1\Interaction Design\eindopdracht\css-grid-test" />
-      <recent name="D:\school\semester 1\Interaction Design\eindopdracht\script" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\spoofdata" />
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\images" />
       <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\script\index" />
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\script\landing" />
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht" />
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\+" />
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,37 +115,80 @@
       <workItem from="1607280702814" duration="622000" />
       <workItem from="1607289917858" duration="2284000" />
       <workItem from="1607331805266" duration="22000" />
+      <workItem from="1607807573376" duration="192000" />
+      <workItem from="1607848500013" duration="24930000" />
+      <workItem from="1607880464172" duration="635000" />
+      <workItem from="1607881116019" duration="305000" />
+      <workItem from="1607895861585" duration="31767000" />
+      <workItem from="1607982532642" duration="29466000" />
+      <workItem from="1608106313595" duration="11409000" />
+      <workItem from="1608122427162" duration="35000" />
+      <workItem from="1608122470758" duration="3327000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606216134955">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="678" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608121789903">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606216134955" />
-    <state x="206" y="211" key="FileChooserDialogImpl" timestamp="1607331825911">
+    <state x="678" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608121789903" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608047160641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608047160641" />
+    <state x="206" y="211" key="FileChooserDialogImpl" timestamp="1607937916133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="165" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606382873243" />
-    <state x="206" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1607331825911" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1606220734995">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="206" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1607937916133" />
+    <state x="346" y="72" key="SettingsEditor" timestamp="1608122461672">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606220734995" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1607331827502">
+    <state x="346" y="72" key="SettingsEditor/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608122461672" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1608122841766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1607331827502" />
-    <state x="952" y="-8" width="976" height="1056" key="dock-window-2" timestamp="1606829127346">
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608122841766" />
+    <state x="773" y="149" width="818" height="878" key="dock-window-2" timestamp="1608046200713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="952" y="-8" width="976" height="1056" key="dock-window-2/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1606829127346" />
+    <state x="773" y="149" width="818" height="878" key="dock-window-2/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608046200713" />
+    <state x="93" y="24" width="818" height="1027" key="dock-window-3" timestamp="1608047530769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="93" y="24" width="818" height="1027" key="dock-window-3/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608047530769" />
+    <state x="736" y="292" key="refactoring.ChangeSignatureDialog" timestamp="1608114726966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="292" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608114726966" />
+    <state x="136" y="242" key="run.anything.popup" timestamp="1608036735870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="242" key="run.anything.popup/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608036735870" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606324667592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606324667592" />
+    <state x="682" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608048434169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/1920.8.1920.1040@0.0.1920.1040" timestamp="1608048434169" />
   </component>
 </project>

@@ -1,0 +1,248 @@
+{
+  "id": "city_22661",
+  "name": "Oostende",
+  "bbox": {
+    "s": "51.180857",
+    "w": "2.847004",
+    "n": "51.24868",
+    "e": "3.011964"
+  },
+  "min_rate": "10",
+  "max_rate": "750",
+  "poi_list": [
+    {
+      "type": "parking_pr",
+      "id": "parking_21765",
+      "name": "Randparking Oosteroever",
+      "location": {
+        "lat": "51.24025456971118",
+        "lng": "2.9415354852537803"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21766",
+      "name": "Parking Visserskaai",
+      "location": {
+        "lat": "51.2305737828015",
+        "lng": "2.9235814226993853"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "Eerste uur gratis.",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21767",
+      "name": "Parking Churchill",
+      "location": {
+        "lat": "51.22943996794064",
+        "lng": "2.924743199434033"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "€ 2 per 50 minuten"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21768",
+      "name": "Parking Mijnplein",
+      "location": {
+        "lat": "51.23293832950825",
+        "lng": "2.919619948952004"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "Eerste uur gratis.",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21769",
+      "name": "Centrumparking",
+      "location": {
+        "lat": "51.23268340210337",
+        "lng": "2.915255006673192"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21770",
+      "name": "Parking Kursaal 2",
+      "location": {
+        "lat": "51.2326275193831",
+        "lng": "2.9145545209471493"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_garage",
+      "id": "parking_21771",
+      "name": "Parking Kursaal 1",
+      "location": {
+        "lat": "51.231275352922665",
+        "lng": "2.912708597199753"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21772",
+      "name": "Zeeparking",
+      "location": {
+        "lat": "51.22802944310509",
+        "lng": "2.916941426913354"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21773",
+      "name": "Parking Koninginnelaan",
+      "location": {
+        "lat": "51.225834673428196",
+        "lng": "2.906039067310303"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "2250"
+    },
+    {
+      "type": "parking_pr",
+      "id": "parking_21774",
+      "name": "Randparking Maria-Hendrikapark",
+      "location": {
+        "lat": "51.2229646587757",
+        "lng": "2.924785196591756"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "Gratis fietsverhuur"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21775",
+      "name": "Parking Station-Zee",
+      "location": {
+        "lat": "51.22495441837797",
+        "lng": "2.9277969684480922"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "Weekendtarief: € 1,50 / 4 uur.",
+      "rate_day": "1500"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21776",
+      "name": "Strandparking",
+      "location": {
+        "lat": "51.225638453270484",
+        "lng": "2.930683037976678"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "€ 3 per dag tijdens de zomervakanties",
+      "rate_day": "300"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21777",
+      "name": "Parking Luchthaven lang",
+      "location": {
+        "lat": "51.20512440535022",
+        "lng": "2.86787104557402"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "1050"
+    },
+    {
+      "type": "parking_area",
+      "id": "parking_21778",
+      "name": "Parking Luchthaven kort",
+      "location": {
+        "lat": "51.20484944038684",
+        "lng": "2.870169850503771"
+      },
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "Eerste 20 minuten gratis.",
+      "rate_day": "1500"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19406",
+      "name": "Betaaldezone ",
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "remark": "Seizoensgebonden: \n01/04-30/09: Max 4u, € 0,75 per uur.\n01/10-31/03: Max 11u, € 0,10 per uur."
+    },
+    {
+      "type": "sector",
+      "id": "sector_19407",
+      "name": "Oranje zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "350"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19408",
+      "name": "Oranje zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "350"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19409",
+      "name": "Oranje zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "350"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19410",
+      "name": "Oranje zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "350"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19411",
+      "name": "Gele zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19412",
+      "name": "Gele zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende"
+    },
+    {
+      "type": "sector",
+      "id": "sector_19413",
+      "name": "Groene zone",
+      "city_id": "city_22661",
+      "overview_city": "Oostende",
+      "rate_day": "300"
+    }
+  ]
+}
