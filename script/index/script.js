@@ -44,7 +44,7 @@ const doFetchRequest = async (url, headers, success, error) => await fetch(url, 
 const resToJson = (res) => res.json();
 
 const createHeaders = () => {
-    return new Headers([['Accept', 'application/spoofdata']]);
+    return new Headers([['Accept', 'application/Data']]);
 }
 
 const error = err => $(".js_error").classList.remove("u-hidden");
@@ -395,7 +395,7 @@ const readAndChangLoc = async (e) => {
     hideAllErrors();
     if (isInputValid()) {
         e.preventDefault()
-        let url = "https://eu1.locationiq.com/v1/search.php?key=" + LOCATION_KEY + "&q=" + $(".js-other-location").value + "&format=spoofdata";
+        let url = "https://eu1.locationiq.com/v1/search.php?key=" + LOCATION_KEY + "&q=" + $(".js-other-location").value + "&format=Data";
         const newLocationCoords = await doFetchRequest(url, createHeaders(), resToJson, error);
         if (newLocationCoords[0]) {
             await wait(500);
