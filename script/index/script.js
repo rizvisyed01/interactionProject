@@ -58,7 +58,6 @@ const generate_loc_url = pos => `https://eu1.locationiq.com/v1/reverse.php?key=$
                                     &lat=${pos.coords.latitude}&lon=${pos.coords.longitude}
                                     &zoom=10&accept-language=native&format=json`;
 
-const toJsonUrl = name => `spoofdata/${capitalize(name)}.json`;
 
 const generateDistanceUrl = currPos => {
     let url = "https://eu1.locationiq.com/v1/matrix/driving/"
@@ -317,7 +316,7 @@ const addOwnLocation = pos => {
 
 /*Load all parking data, calc the individual distances and add them to the map*/
 const loadAndShowParking = async (loc) => {
-    const parkingSpaces = (await getParkingByLoc(loc.name)).poi_list.filter(hasLocation);
+    const parkingSpaces = (getParkingByLoc(loc.name)).poi_list.filter(hasLocation);
     const distances = await getDistances(generateDistanceUrl(loc), parkingSpaces);
     addParkingToMapAndList(addDistanceToLocation(parkingSpaces, distances));
 }
@@ -326,8 +325,10 @@ const loadAndShowParking = async (loc) => {
 const hasLocation = el => el.location;
 
 
-const getParkingByLoc = async (loc) => {
-    let res = await doFetchRequest(toJsonUrl(loc), createHeaders(), resToJson, error);
+const getParkingByLoc =  (loc) => {
+    console.log(loc)
+    let res = SPOOFDATA[`${capitalize(loc)}`];
+    console.log("Test: ", res);
     return res;
 }
 

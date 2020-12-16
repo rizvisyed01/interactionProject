@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ab0ed491-cd46-4381-a3f3-f24017290864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/KORTRIJK.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/spoofdata/KORTRIJK.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/MENEN.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/spoofdata/MENEN.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MENEN.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/script/index/JSON/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/index/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/index/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +65,11 @@
       <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\script\index\JSON" />
+      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht" />
       <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\images" />
       <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\script\index" />
       <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht\script\landing" />
-      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\eindopdracht" />
-      <recent name="G:\stuff\schoolstuff\school\MCT\semester 1\Interaction Design\+" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,7 +112,7 @@
       <workItem from="1607982532642" duration="29466000" />
       <workItem from="1608106313595" duration="11409000" />
       <workItem from="1608122427162" duration="35000" />
-      <workItem from="1608122470758" duration="5154000" />
+      <workItem from="1608122470758" duration="5751000" />
     </task>
     <servers />
   </component>
